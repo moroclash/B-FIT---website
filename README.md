@@ -5,6 +5,6 @@
 * css\css3
 
 ## to start web:
- * start **Get FIT.html*
+ * start **Get FIT.html**
 
 
