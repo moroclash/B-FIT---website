@@ -1,0 +1,93 @@
+body
+{background-color:#000;
+margin:0px;
+padding:0px;
+}
+
+#websit
+{
+	background-size: 100% 100%;
+} 
+#head{z-index: 999;position: fixed; width:100%;}
+#head  ul
+{
+opacity:0.9;
+background-color:#5D5E67;
+width:100%;
+margin:0px;
+padding:0px;
+height:60px;
+}
+#head  ul li  a
+{
+display:block;
+font-size:150%;
+font-family:Cursive;
+text-align:center;
+padding:13px 0px;
+text-decoration: none;
+color:#000;
+}
+#head ul ul{position:absolute; visibility:hidden;}
+#head ul li:hover ul{visibility:visible;}
+#head ul li a.home{  background-color:#FC6A21; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%;  border-radius:0px  0px 10px 10px;}
+#head  li
+{  
+float:left;
+display:block;
+width:161px;
+list-style:none;
+position:relative;       
+background-color:#5D5E67;   
+border-radius:0px  0px 10px 10px;                  
+}
+#head .liimg
+{
+padding:0px;
+margin:0px;
+text-decoration: none;
+display:block;
+opacity:1 ;
+}
+.liimg img {height:133px; width:184px; margin:0px; position:absolute; right:-42px; }
+#head a:hover{ background-color:#0C0C0B; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%; border-radius:0px  0px 10px 10px;}
+#head a:active{ background-color:#FC6A21; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%;  border-radius:0px  0px 10px 10px;}
+#webbody .img1{width:100%; height:100%; background-position: 50% ;  background-size: 100% 100%;}
+#runing {display:block; margin:50px 0px 0px 0px; padding :0px; position:relative;}
+#runing img{width:500px; height:500px;  opacity:0.8;}
+#runing h1{color:#F8DD0C;  position:absolute; font-size:400px; top:10px; right:605px; font-family:Poplar Std; margin:0px; padding:0px;}
+#runing a h1:hover{color:#EEC540;  font-size:408px;}
+#runing a h2:hover{color:#EEC540; font-size:166px;}
+#runing h2{color:#fff;  position:absolute; font-size:162px; top:30px; right:355px; font-family:Poplar Std; margin:0px; padding:0px;}
+#runing pre{color:#fff; font-size:50px; font-family:Script MT Bold; position:absolute; margin:0px; padding:0px;  top:186px; right:80px;}
+#skydive img{width:100%; height:100%; position:relative; right:0px; margin:0px; padding :0px; despla:block;}
+#skydive{position:relative; margin:50px 0px 50px 0px;padding:0px; display:block;}
+#skydive .paragraf{color:#fff; font-size:150%; position:absolute; display:block ;top:425px; margin:0px; background-color:#252524; opacity:0.7; padding:0px 15px 0px 15px;}
+#skydive .paragraf  h1 a{ text-decoration:none; color:#B79010;}
+#skydive .paragraf  h1 a:hover{color:#FACE3B;}
+#skydive .paragraf  p a{text-decoration:none; color:#FAE5A1; font-size:100%;}
+#skydive .paragraf  p a:hover{ color:#FCD966;}
+#swimming{position:relative; display:block; margin:0px; padding:50px 0px 50px 0px;}
+#swimming .img1{width:100%; height:900px; position:relative; right:0px; margin:0px; padding :0px; displa:block;}
+#swimming img{margin:0px; padding:0px 0px 150px 0px; position:absolute;  bottom:0px; display:block;}
+#rowing{display:block; position:relative; padding:0px; margin:100px 0px 0px 0px;}
+#swimming p {color:#fff; display:block; width:979px; font-size:162%%; padding:0px 0px 150px 0px; position:absolute; bottom:13px; right:0px;}
+#rowing img{width:100%;height:100%; margin:0px 0px 0px 0px; padding:0px; display:block;opacity:0.8;}
+#rowing h1{display:block;  width:205px; height:60px; text-align:center;background-color:#4E4C4C; position:absolute; top:500px; right:50px;opacity:0.7;}
+#rowing h1 a{text-decoration:none; color:#FA5A0A; margin:0px 0px 0px 0px; padding:0px; display:block;font-size:133%;}
+#rowing h1 a:hover{ color:#FA8E0A; background-color:#000;margin:0px 0px 0px 0px; padding:0px; display:block;font-size:133%; height:60px; box-shadow:0px 0px 25px #F6D012; border:1px solid #fff;}
+#workout{display:block; position:relative; padding:0px; margin:70px 0px 0px 0px}
+#workout img{width:100%;height:100%; margin:0px 0px 0px 0px; padding:0px; display:block;opacity:0.8;}
+#workout h1{ margin:0px; padding:0px; position:absolute; top:150px;}
+#workout h1 a{color:#d1cdcb; font-family:Group; font-size:175px; text-decoration:none;}
+#workout h1 a:hover{color:#EBCF46; font-family:Group; font-size:178px; text-decoration:none;}
+#workout h2{color:#f15668; font-size:37px ; padding:0px; margin:0px; position:absolute; top:187px;}
+#workout h3{color:#f0a992; font-size:52px; padding:0px; margin:0px; position:absolute; bottom:437px; left:37px; font-family:Bernard MT Condensed;}
+#workout h4{color:#f0a992; font-size:45px; padding:0px; margin:0px; position:absolute; bottom:394px; left:52px; font-family:Bernard MT Condensed;}
+#footer{display:block; margin:100px 0px 100px 0px; padding:0px; position:relative;}
+#footer .search{width:500px; left:500px; display:block; position:relative;  }
+#footer .searchbo { display:block; width:500px; margin:0px; padding:16px 0px 0px 400px;  }
+#footer .submtb {displa:block; position:absolute; right:396px ; top:0px;}
+#footer h1 {color:gray; font-size:30px; text-align:center; margin:50px 0px 0px 0px; font-family: Helvetica, serif;}
+#footer h2 {color:gray; font-size:30px; text-align:center; margin: 10px ; font-family:Helvetica, serif; position:relative;}
+#footer .som{right:34px; display:block; position:absolute; bottom: 29px;}

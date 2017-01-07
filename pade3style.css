@@ -1,0 +1,126 @@
+body
+{background-color:#fff;
+margin:0px;
+padding:0px;
+}
+
+#websit
+{
+	background-size: 100% 100%;
+} 
+#head{z-index: 999;position: fixed; width:100%;}
+#head  ul
+{
+opacity:0.9;
+background-color:#5D5E67;
+width:100%;
+margin:0px;
+padding:0px;
+height:60px;
+}
+#head  ul li  a
+{
+display:block;
+font-size:150%;
+font-family:Cursive;
+text-align:center;
+padding:13px 0px;
+text-decoration: none;
+color:#000;
+}
+#head ul ul{position:absolute; visibility:hidden;}
+#head ul li:hover ul{visibility:visible;}
+#head ul li a.home{  background-color:#FC6A21; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%;  border-radius:0px  0px 10px 10px;}
+#head  li
+{  
+float:left;
+display:block;
+width:161px;
+list-style:none;
+position:relative;       
+background-color:#5D5E67;   
+border-radius:0px  0px 10px 10px;                  
+}
+#head .liimg
+{
+padding:0px;
+margin:0px;
+text-decoration: none;
+display:block;
+opacity:1 ;
+}
+.liimg img {height:133px; width:184px; margin:0px; position:absolute; right:-42px; }
+#head a:hover{ background-color:#0C0C0B; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%; border-radius:0px  0px 10px 10px;}
+#head a:active{ background-color:#FC6A21; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%;  border-radius:0px  0px 10px 10px;}
+#webbody #p1 {display:block; position:relative; margin:0px; padding:0px;}
+#webbody #p1 img{width:100%; height:100%; position:relative; }
+#webbody #p1 h1{display:block; text-align:center; width:285px; background-color:#4E4C4C; position:absolute; top:293px; right:361px; padding:18px 0px 18px 0px; opacity:0.7;}
+#webbody #p1 h1 a{text-decoration:none; color:#FA5A0A; font-size:54px; padding:18px 8px 18px 8px;}
+#webbody #p1 h1 a:hover{color:#FA8E0A;  box-shadow:0px 0px 25px #F6D012; border:1px solid #fff; font-size:56px; background-color:#000;}
+#webbody .suit  {display:block; position:relative; height:735px;}
+#webbody .suit .h1{display:block;  height:196px; padding:100px 0px 0px 0px; margin:0px 0px 0px 0px; }
+#webbody .suit .h1 h1{color:#000; background-color:#FC6A21; padding:20px 0px 20px 57px; margin:0px 0px 0px 0px; font-size:50px; font-family:Showcard Gothic; width:611px; border-radius:0px  56px 56px 0px;}
+#webbody .suit .h1 img{width:300px; height:300px; position:absolute; top :0px; left:330px;}
+#webbody .suit ul li .img h1{position:absolute; color:#fff;bottom:0px; background-color:#000; opacity:0.7; padding:15px 0px 15px 0px; width:250px; margin:0px 0px 0px 0px; text-align:center;}
+#webbody .suit ul {display:block;}
+#webbody .suit ul li .img { position:relative; display:block; border-top:3px solid #EED87E;}
+#webbody .suit ul li {display:block; position:relative; float:left; padding:0px 75px 0px 75px; margin:0px;}
+#webbody .suit ul li .img img{width:250px;height:250px; position:relative;display:block;}
+#webbody .suit ul li h2{display:block; text-align:center;  background-color:#4E4C4C; opacity:0.7;width: 195px; margin:15px 0px 0px 28px; padding:15px 0px 15px 0px;}
+#webbody .suit ul li h2 a{text-decoration:none; color:#FA5A0A; width: 195px; padding:15px 72px 16px 61px}
+#webbody .suit ul li h2 a:hover{color:#FA8E0A;  box-shadow:0px 0px 50px #F6D012; border:1px solid #F77809; background-color:#000; }
+#webbody .back  {display:block;  position:relative; height:735px;}
+#webbody .back .h1{display:block;  height:196px; padding:100px 0px 0px 0px; margin:0px 0px 0px 0px; position: relative;}
+#webbody .back .h1 h1{color:#000; background-color:#FC6A21; padding:20px 0px 20px 57px; margin:0px 0px 0px 0px; font-size:50px; font-family:Showcard Gothic; width:611px; border-radius:0px  56px 56px 0px;}
+#webbody .back .h1 img{width:300px; height:300px; position:absolute; top :0px; left:330px;}
+#webbody .back ul li .img h1{position:absolute; color:#fff;bottom:0px; background-color:#000; opacity:0.7; padding:15px 0px 15px 0px; width:250px; margin:0px 0px 0px 0px; text-align:center;}
+#webbody .back ul {display:block;}
+#webbody .back ul li .img { position:relative; display:block; border-top:3px solid #EED87E;}
+#webbody .back ul li {display:block; position:relative; float:left; padding:0px 75px 0px 75px; margin:0px;}
+#webbody .back ul li .img img{width:250px;height:250px; position:relative;display:block;}
+#webbody .back ul li h2{display:block; text-align:center;  background-color:#4E4C4C; opacity:0.7;width: 195px; margin:15px 0px 0px 28px; padding:15px 0px 15px 0px;}
+#webbody .back ul li h2 a{text-decoration:none; color:#FA5A0A; width: 195px; padding:15px 72px 16px 61px}
+#webbody .back ul li h2 a:hover{color:#FA8E0A;  box-shadow:0px 0px 50px #F6D012; border:1px solid #F77809; background-color:#000; }
+#webbody .glasses  {display:block; position:relative; height:735px;}
+#webbody .glasses .h1{display:block;  height:196px; padding:100px 0px 0px 0px; margin:0px 0px 0px 0px; position: relative;}
+#webbody .glasses .h1 h1{color:#000; background-color:#FC6A21; padding:20px 0px 20px 57px; margin:0px 0px 0px 0px; font-size:50px; font-family:Showcard Gothic; width:611px; border-radius:0px  56px 56px 0px;}
+#webbody .glasses .h1 img{width:300px; height:300px; position:absolute; top :0px; left:330px;}
+#webbody .glasses ul li .img h1{position:absolute; color:#fff;bottom:0px; background-color:#000; opacity:0.7; padding:15px 0px 15px 0px; width:250px; margin:0px 0px 0px 0px; text-align:center;}
+#webbody .glasses ul {display:block;}
+#webbody .glasses ul li .img { position:relative; display:block; border-top:3px solid #EED87E;}
+#webbody .glasses ul li {display:block; position:relative; float:left; padding:0px 75px 0px 75px; margin:0px;}
+#webbody .glasses ul li .img img{width:250px;height:250px; position:relative;display:block;}
+#webbody .glasses ul li h2{display:block; text-align:center;  background-color:#4E4C4C; opacity:0.7;width: 195px; margin:15px 0px 0px 28px; padding:15px 0px 15px 0px;}
+#webbody .glasses ul li h2 a{text-decoration:none; color:#FA5A0A; width: 195px; padding:15px 84px 16px 62px;}
+#webbody .glasses ul li h2 a:hover{color:#FA8E0A;  box-shadow:0px 0px 50px #F6D012; border:1px solid #F77809; background-color:#000;}
+#webbody .helmet  {display:block;  position:relative; height:735px;}
+#webbody .helmet .h1{display:block;  height:196px; padding:100px 0px 0px 0px; margin:0px 0px 0px 0px; position: relative;}
+#webbody .helmet .h1 h1{color:#000; background-color:#FC6A21; padding:20px 0px 20px 57px; margin:0px 0px 0px 0px; font-size:50px; font-family:Showcard Gothic; width:611px; border-radius:0px  56px 56px 0px;}
+#webbody .helmet .h1 img{width:300px; height:300px; position:absolute; top :0px; left:330px;}
+#webbody .helmet ul li .img h1{position:absolute; color:#fff;bottom:0px; background-color:#000; opacity:0.7; padding:15px 0px 15px 0px; width:250px; margin:0px 0px 0px 0px; text-align:center;}
+#webbody .helmet ul {display:block;}
+#webbody .helmet ul li .img { position:relative; display:block; border-top:3px solid #EED87E;}
+#webbody .helmet ul li {display:block; position:relative; float:left; padding:0px 75px 0px 75px; margin:0px;}
+#webbody .helmet ul li .img img{width:250px;height:250px; position:relative;display:block;}
+#webbody .helmet ul li h2{display:block; text-align:center;  background-color:#4E4C4C; opacity:0.7;width: 195px; margin:15px 0px 0px 28px; padding:15px 0px 15px 0px;}
+#webbody .helmet ul li h2 a{text-decoration:none; color:#FA5A0A; width: 195px; padding:15px 72px 16px 61px}
+#webbody .helmet ul li h2 a:hover{color:#FA8E0A;  box-shadow:0px 0px 50px #F6D012; border:1px solid #F77809; background-color:#000; }
+#webbody .gloves  {display:block; position:relative; height:735px;}
+#webbody .gloves .h1{display:block;  height:196px; padding:100px 0px 0px 0px; margin:0px 0px 0px 0px; position: relative;}
+#webbody .gloves .h1 h1{color:#000; background-color:#FC6A21; padding:20px 0px 20px 57px; margin:0px 0px 0px 0px; font-size:50px; font-family:Showcard Gothic; width:611px; border-radius:0px  56px 56px 0px;}
+#webbody .gloves .h1 img{width:300px; height:300px; position:absolute; top :0px; left:330px;}
+#webbody .gloves ul li .img h1{position:absolute; color:#fff;bottom:0px; background-color:#000; opacity:0.7; padding:15px 0px 15px 0px; width:250px; margin:0px 0px 0px 0px; text-align:center;}
+#webbody .gloves ul {display:block;}
+#webbody .gloves ul li .img { position:relative; display:block; border-top:3px solid #EED87E;}
+#webbody .gloves ul li {display:block; position:relative; float:left; padding:0px 75px 0px 75px; margin:0px;}
+#webbody .gloves ul li .img img{width:250px;height:250px; position:relative;display:block;}
+#webbody .gloves ul li h2{display:block; text-align:center;  background-color:#4E4C4C; opacity:0.7;width: 195px; margin:15px 0px 0px 28px; padding:15px 0px 15px 0px;}
+#webbody .gloves ul li h2 a{text-decoration:none; color:#FA5A0A; width: 195px; padding:15px 84px 16px 62px;}
+#webbody .gloves ul li h2 a:hover{color:#FA8E0A;  box-shadow:0px 0px 50px #F6D012; border:1px solid #F77809; background-color:#000;}
+#footer{display:block; margin:44px 0px -18px 0px;padding:50px 0px 40px 0px; position:relative; background-color:#000;}
+#footer .search{width:500px; left:500px; display:block; position:relative;  }
+#footer .searchbo { display:block; width:500px; margin:0px; padding:16px 0px 0px 400px;  }
+#footer .submtb {displa:block; position:absolute; right:396px ; top:51px;}
+#footer h1 {color:gray; font-size:30px; text-align:center; margin:50px 0px 0px 0px; font-family: Helvetica, serif;}
+#footer h2 {color:gray; font-size:30px; text-align:center; margin: 10px ; font-family:Helvetica, serif; position:relative;}
+#footer .som{right:34px; display:block; position:absolute; bottom: 70px;}
