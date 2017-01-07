@@ -1,0 +1,25 @@
+
+<!DOCTYP html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" >
+<link rel="stylesheet" type="text/css" href="G.css">
+<title>B FIT</title>
+</head>
+<body>
+	<div id="websit">
+		
+		<div id="head">
+		<ul >
+			<li><a href="#">Home</a></li>
+			<li><a href="#">SkyDiving</a></li>
+			<li><a href="#">Swimming</a></li>
+			<li><a href="#">Running</a></li>
+			<li><a href="#">Rowing</a></li>
+			<li><a href="#">Workout</a></li>
+			<li><a href="#">Taekwondo</a></li>
+			<li class="liimg"><img src="imges/logo.png"></li>
+		</ul>
+		</div>
+		</div>
+			<img src="are-you-strong-enough-for-the-tire-flip-graphics-1.jpg"

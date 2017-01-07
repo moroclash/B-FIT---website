@@ -1,0 +1,37 @@
+body{margin:0px; padding:0px;}
+
+#webbody .imge1{width:100%}
+#webbody p {
+font-size:15px;
+color:#fff;
+padding-left:10px;
+}
+#webbody h1{
+font-size:40px;
+color:#fff;
+padding-left:10px;
+margin-bottom:10px;
+}
+#webbody .video1{width:100% ;  margin-bottom: 170px;}
+.navbar{
+list-style:non;
+}
+.navbar li{}
+.navbar li a{
+padding:3px;
+display:block;
+
+font:blod 12pt;
+
+}
+.navbar li a:hover{
+font: blod 15pt;
+
+}
+#footer{display:block; margin:100px 0px 100px 0px; padding:0px; position:relative;}
+#footer .search{width:500px; left:500px; display:block; position:relative;  }
+#footer .searchbo { display:block; width:500px; margin:0px; padding:16px 0px 0px 400px;  }
+#footer .submtb {displa:block; position:absolute; right:396px ; top:0px;}
+#footer h1 {color:gray; font-size:30px; text-align:center; margin:50px 0px 0px 0px; font-family: Helvetica, serif;}
+#footer h2 {color:gray; font-size:30px; text-align:center; margin: 10px ; font-family:Helvetica, serif; position:relative;}
+#footer .som{right:34px; display:block; position:absolute; bottom: 29px;}

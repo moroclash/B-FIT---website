@@ -1,0 +1,62 @@
+body {background-color: #fff;}
+#webbody h1{background-color:#E78A11;color:#000; font-size: 60px; padding: 10px 0px 10px 0px; text-align: center; width: 600px; margin: 0px 0px 0px 330px; border-radius: 130px; }
+.boat{position: relative; display: block; height: 500px;}
+.boat	ul{display: block; padding: 0px 0px 0px 25px;}
+.boat ul li{display: block; border: 2px solid #000; width: 420px; float: left; margin-right: 10px;}
+.boat ul li img{ width: 420px; height: 200px;}
+.boat ul li h2{font-size: 26px; color:#FFF; background-color: gray; padding: 15px 0px 15px 0px; text-align: center;}
+.boat ul li h3{font-size: 26px; color:#FFF; background-color: black; padding: 0px 0px 0px 0px; text-align: center; margin: 0px;}
+.boat{position: relative;}
+#head{z-index: 999;position: fixed; width:100%;}
+#head  ul
+{
+opacity:0.9;
+background-color:#5D5E67;
+width:100%;
+margin:0px;
+padding:0px;
+height:60px;
+}
+#head  ul li  a
+{
+display:block;
+font-size:150%;
+font-family:Cursive;
+text-align:center;
+padding:13px 0px;
+text-decoration: none;
+color:#000;
+}
+#head ul ul{position:absolute; visibility:hidden;}
+#head ul li:hover ul{visibility:visible;}
+#head ul li a.home{  background-color:#FC6A21; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%;  border-radius:0px  0px 10px 10px;}
+#head  li
+{  
+float:left;
+display:block;
+width:161px;
+list-style:none;
+position:relative;       
+background-color:#5D5E67;   
+border-radius:0px  0px 10px 10px;                  
+}
+#head .liimg
+{
+padding:0px;
+margin:0px;
+text-decoration: none;
+display:block;
+opacity:1 ;
+}
+.liimg img {height:133px; width:184px; margin:0px; position:absolute; right:-42px; }
+#head a:hover{ background-color:#0C0C0B; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%; border-radius:0px  0px 10px 10px;}
+#head a:active{ background-color:#FC6A21; color:#fff; box-shadow: 0px 0px 15px #fff;  font-size:175%;  border-radius:0px  0px 10px 10px;}
+body{margin:0px; padding:0px}
+#webbody{padding-top:150px;}
+#footer{display:block; margin:100px 0px 100px 0px; padding:0px; position:relative;}
+#footer .search{width:500px; left:500px; display:block; position:relative;  }
+#footer .searchbo { display:block; width:500px; margin:0px; padding:16px 0px 0px 400px;  }
+#footer .submtb {displa:block; position:absolute; right:396px ; top:0px;}
+#footer h1 {color:gray; font-size:30px; text-align:center; margin:50px 0px 0px 0px; font-family: Helvetica, serif;}
+#footer h2 {color:gray; font-size:30px; text-align:center; margin: 10px ; font-family:Helvetica, serif; position:relative;}
+#footer .som{right:34px; display:block; position:absolute; bottom: 29px;}
