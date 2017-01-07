@@ -1,0 +1,1 @@
+_xlaABMdg('6','<a href="http://ads.swimmingworldmagazine.com/abmc.aspx?b=919&z=203" target="checked"><img src="http://ads.swimmingworldmagazine.com/banners/_spi house ads/2014/techniqueblock2015.jpg" border=0 /></a>');

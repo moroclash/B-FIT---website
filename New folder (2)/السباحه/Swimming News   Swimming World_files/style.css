@@ -1,0 +1,132 @@
+﻿/*
+ Theme Name:   Readpress Child
+ Theme URI:    http://example.com/readpress-child/
+ Description:  Readpress Child Theme
+ Author:       Steve West
+ Author URI:   http://example.com
+ Template:     readpress
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  readpress-child
+*/
+
+@import url("../readpress/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+div.container
+{
+	min-width:1000px !important;
+}
+div.off-canvas-nav
+{
+	display:none;
+}
+div.site-content, div.site-nav
+{
+	
+}
+
+.row
+{
+	margin:0px !important;
+}
+
+div.main-content
+{
+	width:100%;
+
+}
+
+div.nav-ad
+{
+	margin-right:30px;
+}
+
+
+
+div.col-md-12
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+
+
+div.container
+{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+div.content-wrap
+{
+	border:none;
+}
+div.sidebar
+{
+	border-left:none;
+}
+div.pagination
+{
+	border:none;
+}
+
+.page-numbers
+{
+	font-weight:bold;
+	border-top:1px solid #e2e2e2;
+}
+a.next
+{
+	border-right:1px solid #e2e2e2;
+}
+
+div.secondary-content
+{
+	border-left:none;
+	border-right:none;
+}
+
+
+div.post-caption, .cc-featured-image-caption
+{
+	font-size:13px;
+	font-style:italic;
+}
+
+
+p.form-allowed-tags
+{
+	display:none;
+}
+
+
+
+@media( max-width: 1000px ) 
+{
+	.post-content
+	{
+		font-size:36px !important;
+		color:#000000;
+	}
+	.post-content blockquote, .post-content h2, .post-content h3
+	{
+		font-size:36px !important;
+	}
+	
+	
+	.comment-author-name
+	{
+		font-size:34px !important;
+	}
+	
+	
+	.comment-message
+	{
+		font-size:34px !important;
+	}
+}
+	
